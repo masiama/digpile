@@ -18,7 +18,14 @@ It can read directly from:
 ## Install
 
 ```bash
+npm install -g digpile
+```
+
+For local development:
+
+```bash
 pnpm install
+pnpm build
 ```
 
 ## Usage
@@ -26,19 +33,19 @@ pnpm install
 Run against an installed browser profile:
 
 ```bash
-pnpm start
+digpile
 ```
 
 Run against an exported bookmarks file:
 
 ```bash
-pnpm start ~/bookmarks.html
+digpile ~/bookmarks.html
 ```
 
 Show help:
 
 ```bash
-pnpm start --help
+digpile --help
 ```
 
 ## Options
@@ -49,7 +56,7 @@ pnpm start --help
 ## Examples
 
 ```bash
-pnpm start
-pnpm start --folder "read later" -n 3
-pnpm start -f inbox -n 5 ~/bookmarks.html
+digpile
+digpile --folder "read later" -n 3
+digpile -f inbox -n 5 ~/bookmarks.html
 ```
