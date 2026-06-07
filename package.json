@@ -52,7 +52,7 @@
     "@types/better-sqlite3": "^7.6.13",
     "@types/jsdom": "^28.0.3",
     "@types/node": "^25.9.1",
-    "oxfmt": "^0.52.0",
+    "oxfmt": "^0.53.0",
     "oxlint": "^1.67.0",
     "typescript": "^6.0.3"
   },
